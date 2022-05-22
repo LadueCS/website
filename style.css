@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  
+  font-family: Hack, Noto Sans Mono, DejaVu Sans Mono, monospace;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.logo {
+  color: rgb(69, 255, 42);
+  white-space: pre;
+  text-align: center;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.username {
+  color: #00000077;
+}
+
+.hostname {
+  color: #00000000;
+}
+
+.directory {
+  color: #00000077;
+}
+
+.prompt {
+  color: #00000000;
+}
+
+.command {
+  color: #00000077;
+}
+
+.output {
+  color: #0000;
+  white-space: pre-line;
+  background:
+    linear-gradient(-90deg, rgb(69, 255, 42) 1ch, #0000 0) 10px 0,
+    linear-gradient(rgb(69, 255, 42) 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation:
+    b .07s infinite steps(1),
+    t calc(var(--n)*.03s) steps(var(--n)) forwards;
+}
+
+@keyframes t{
+  from {background-size:0 200%}
+}
+
+a:link {
+  color: #00000077;
+}
+
+/* visited link */
+a:visited {
+  color: #00000000;
+}
