@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+  
+  font-family: Hack, Noto Sans Mono, DejaVu Sans Mono, monospace;
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: #00000077;
+}
+
+a:visited {
+  color: #00000000;
+}
+
+.logo {
+  color: rgb(69, 255, 42);
+  white-space: pre;
+  text-align: center;
+}
+
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* https://dev.to/afif/a-multi-line-css-only-typewriter-effect-3op3 */
+.terminal {
+  color: #0000;
+  white-space: pre-line;
+  background:
+    linear-gradient(-90deg, rgb(69, 255, 42) 1ch, #0000 0) 10px 0,
+    linear-gradient(rgb(69, 255, 42) 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation:
+    b .07s infinite steps(1),
+    t calc(var(--n)*.03s) steps(var(--n)) forwards;
+}
+
+@keyframes t{
+  from {background-size:0 200%}
+}
+
+/*@keyframes b{
+  50% {background-position:0 -100%,0 0}
+}*/
+
+.username {
+  color: #00000077;
+}
+
+.hostname {
+  color: #00000000;
+}
+
+.directory {
+  color: #00000077;
+}
+
+.prompt {
+  color: #00000000;
+}
+
+.command {
+  color: #00000077;
+}
+
+.output {
+  white-space: pre-wrap;
+}
+
+.output a span {
+  position: absolute;
+  display: none;
+  z-index: 99;
+}
+
+.output a:hover span {
+  display: block;
+  z-index: 1;
+}
+
+.output a span img {
+  width: 256px;
+  height: 256px;
+}
