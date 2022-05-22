@@ -39,6 +39,7 @@ body {
   color: #00000077;
 }
 
+/* https://dev.to/afif/a-multi-line-css-only-typewriter-effect-3op3 */
 .output {
   color: #0000;
   white-space: pre-line;
@@ -62,7 +63,6 @@ a:link {
   color: #00000077;
 }
 
-/* visited link */
 a:visited {
   color: #00000000;
 }
