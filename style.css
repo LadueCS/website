@@ -21,6 +21,10 @@ a:visited {
   text-align: center;
 }
 
+.logo a:link {
+  color: rgb(69, 255, 42);
+}
+
 .photo {
   display: block;
   margin-left: auto;
