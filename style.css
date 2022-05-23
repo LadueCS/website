@@ -44,7 +44,7 @@ a:visited {
   background-repeat: no-repeat;
   animation:
     b .04s infinite steps(1),
-    t calc(var(--n)*.01s) steps(var(--n)) forwards;
+    t calc(var(--n)*.02s) steps(var(--n)) forwards;
 }
 
 @keyframes t{
