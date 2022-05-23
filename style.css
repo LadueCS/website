@@ -79,18 +79,18 @@ a:visited {
   white-space: pre-wrap;
 }
 
-.output a span {
+.output2 a span {
   position: absolute;
   display: none;
   z-index: 99;
 }
 
-.output a:hover span {
+.output2 a:hover span {
   display: block;
   z-index: 1;
 }
 
-.output a span img {
+.output2 a span img {
   width: 256px;
   height: 256px;
 }
