@@ -75,6 +75,10 @@ a:visited {
   color: #00000077;
 }
 
+.output {
+  white-space: pre-wrap;
+}
+
 .output a span {
   position: absolute;
   display: none;
