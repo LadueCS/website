@@ -8,11 +8,11 @@ body {
 }
 
 a:link {
-  color: #00000077;
+  color: #0007;
 }
 
 a:visited {
-  color: #00000000;
+  color: #0000;
 }
 
 .logo {
@@ -21,7 +21,7 @@ a:visited {
   text-align: center;
 }
 
-.logo a:link {
+.logo a {
   color: rgb(69, 255, 42);
 }
 
@@ -56,23 +56,23 @@ a:visited {
 }*/
 
 .username {
-  color: #00000077;
+  color: #0007;
 }
 
 .hostname {
-  color: #00000000;
+  color: #0000;
 }
 
 .directory {
-  color: #00000077;
+  color: #0007;
 }
 
 .prompt {
-  color: #00000000;
+  color: #0000;
 }
 
 .command {
-  color: #00000077;
+  color: #0007;
 }
 
 .output {
