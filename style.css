@@ -9,7 +9,7 @@ body {
 
 ::selection {
   background-color: rgb(69, 255, 42);
-  color: #00000000;
+  color: #000000ff;
 }
 
 a:link {
